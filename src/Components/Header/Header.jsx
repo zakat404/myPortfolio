@@ -1,10 +1,12 @@
 import React from 'react';
 import './Header.modules.css';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 export const Header = () => {
-  const redirectToGoogle = () => {
-    window.location.href = "https://www.google.com";
-  };
+ 
+ 
+  
 
   return (
     <section id="header">
@@ -12,7 +14,7 @@ export const Header = () => {
       <div>
         <ul id="navbar">
           <li>
-            <button onClick={redirectToGoogle} className="btn" type="button">
+            <Link to="444" smooth={true} duration={1000}  className="btn" type="button">
               <strong>About</strong>
               <div id="container-stars">
                 <div id="stars"></div>
@@ -21,13 +23,15 @@ export const Header = () => {
                 <div className="circle"></div>
                 <div className="circle"></div>
               </div>
-            </button>
+            </Link>
           </li>
           <li>
-            <form action="https://www.google.com">
-              <button className="button type1">
-                <span className="btn-txt">Contact</span>
+            <form >
+              <Link to="123" smooth={true} duration={1000}>
+              <button  className="button type1">
+                <span className="btn-txt" >Contact</span>
               </button>
+              </Link>
             </form>
           </li>
         </ul>

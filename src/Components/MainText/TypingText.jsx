@@ -44,7 +44,7 @@ const TypingText = () => {
   return (
     <div className='App'>
       <h1><span ref={myNameRef}></span></h1>
-      <h4><span className='span1' ref={typedRef}></span></h4>
+      <h4><span className='span1'id='444' ref={typedRef}></span></h4>
     </div>
   );
 };

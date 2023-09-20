@@ -25,7 +25,7 @@ const About = () => {
       <div className='about-element'>
         <motion.p variants={textAnimation } custom={1}>Front-end developer with a year of experience specializing in HTML, CSS, and JavaScript. Proficient with React, Next.js, and Socket.io. Passionate about creating intuitive and engaging user interfaces.</motion.p>
         <br />
-        <motion.p viewport={{amount: 0.3}} variants={textAnimation } custom={2}>I possess good soft skills, communication, adaptability, problem-solving abilities, teamwork skills, creativity, and leadership. If you are looking for a young and ambitious frontend developer, I would be happy to join your team.</motion.p>
+        <motion.p variants={textAnimation } custom={2}>I possess good soft skills, communication, adaptability, problem-solving abilities, teamwork skills, creativity, and leadership. If you are looking for a young and ambitious frontend developer, I would be happy to join your team.</motion.p>
       </div>
     </motion.div>
   );
