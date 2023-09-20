@@ -1,0 +1,12 @@
+.about-main { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.about-main .about-element { 
+    width: 65%;
+    font-size: 24px;
+
+}

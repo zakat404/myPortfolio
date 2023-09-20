@@ -1,0 +1,38 @@
+.App { 
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    font-size: 50px;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 250px;
+}
+.App .span1 { 
+    color: orange;
+    padding-left: 250px;
+}
+.typing-text {
+    font-size: 24px;
+    font-weight: bold;
+    overflow: hidden; /* Обрезает текст, который не помещается в контейнере */
+    border-right: 2px solid #000; /* Создает мигающий курсор */
+    animation: typing 1s steps(40, end), blink-caret 0.5s step-end infinite;
+  animation-play-state: running;
+  }
+
+  
+  .typing-text.complete {
+    animation-play-state: paused;
+  }
+  
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #000; }
+}
