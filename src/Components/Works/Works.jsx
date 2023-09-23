@@ -45,7 +45,7 @@ export const Works = () => {
             <p className='discription'>I created a real-time chat application using Node.js, Express.js, Socket.io, and React.js. This project demonstrates my expertise in building efficient and interactive web applications for instant online communication.</p>
             <div className='buttons'>
                 <button className="bttn first-bttn" onClick={() => window.open("https://github.com/zakat404/chat", "_blank")}>GitHub</button>
-                <button className="bttn second-bttn">Demo</button>
+                <button className="bttn second-bttn" onClick={() => window.open("", "_blank")}>Demo</button>
             </div>
 
             </div>
@@ -59,7 +59,7 @@ export const Works = () => {
             </p>
             <div className='buttons'>
             <button className="bttn first-bttn" onClick={() => window.open("https://github.com/zakat404/calc", "_blank")}>GitHub</button>
-            <button className="bttn second-bttn">Demo</button>
+            <button className="bttn second-bttn" onClick={() => window.open("https://chatwebsocket.vercel.app/", "_blank")}>Demo</button>
             </div>
 
             </div>
