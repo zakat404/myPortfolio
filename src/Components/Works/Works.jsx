@@ -71,7 +71,7 @@ export const Works = () => {
             <p className='discription'>Created a responsive and intuitive Todo List application using React.js, offering users a seamless task management experience. <br /> <br /><br /></p>
             <div className='buttons'>
             <button className="bttn first-bttn" onClick={() => window.open("https://github.com/zakat404/ToDoList", "_blank")}>GitHub</button>
-            <button className="bttn second-bttn">Demo</button>
+            <button className="bttn second-bttn" onClick={() => window.open("https://todolist-six-pi-88.vercel.app/", "_blank")}  >Demo</button>
             </div>
 
             </div>
@@ -83,7 +83,7 @@ export const Works = () => {
             <p className='discription'>Developed my personal portfolio website using React.js, incorporating the Typed.js library for dynamic text. <br /> <br /><br /></p>
             <div className='buttons'>
             <button className="bttn first-bttn" onClick={() => window.open("https://github.com/zakat404/myPortfolio", "_blank")}>GitHub</button>
-            <button className="bttn second-bttn">Demo</button>
+            <button className="bttn second-bttn" onClick={() => window.open("https://my-portfolio-3sw22fibo-zakat404.vercel.app/", "_blank")}>Demo</button>
             </div>
 
             </div>
@@ -95,7 +95,7 @@ export const Works = () => {
             <p className='discription'>Designed a mouthwatering burger restaurant website using HTML and CSS, featuring an enticing menu and captivating visuals. <br /> <br /></p>
             <div className='buttons'>
             <button className="bttn first-bttn" onClick={() => window.open("https://github.com/zakat404/Restoran", "_blank")}>GitHub</button>
-            <button className="bttn second-bttn">Demo</button>
+            <button className="bttn second-bttn" onClick={() => window.open("https://restoran-seven.vercel.app/", "_blank")}>Demo</button>
             </div>
 
             </div>
@@ -107,7 +107,7 @@ export const Works = () => {
             <p className='discription'>Crafted an immersive gallery experience with HTML, CSS, and JavaScript, enriched by captivating parallax effects powered by GSAP. <br /> <br /></p>
             <div className='buttons'>
             <button className="bttn first-bttn" onClick={() => window.open("https://github.com/zakat404/ScrollEffect", "_blank")}>GitHub</button>
-            <button className="bttn second-bttn">Demo</button>
+            <button className="bttn second-bttn " onClick={() => window.open("https://scroll-effect-beta.vercel.app/", "_blank")}>Demo</button>
             </div>
 
             </div>
